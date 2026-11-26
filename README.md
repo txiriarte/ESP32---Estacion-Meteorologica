@@ -1,0 +1,43 @@
+# Estación IAQ
+
+Aplicación móvil Expo para consultar las mediciones del sensor y datos meteorológicos.
+
+## Requisitos
+
+- Node.js y npm.
+- EAS CLI (`eas-cli`) y una cuenta Expo con acceso a EAS Build.
+
+El proyecto usa Expo SDK 54 (ver `package.json`).
+
+## Preparación
+
+```sh
+npm install
+cp comun/config.local.example.js comun/config.local.js
+```
+
+Edita `comun/config.local.js` y sustituye los valores de ejemplo por las credenciales necesarias:
+
+- `FIREBASE_SECRET`
+- `AEMET_API_KEY`
+- `DB_URL`
+- `GRAFANA_URL`
+
+`comun/config.local.js` está excluido de Git. No lo subas al repositorio.
+
+## Ejecutar
+
+```sh
+npm start
+```
+
+## Compilar APK Android
+
+Inicia sesión en EAS y ejecuta el perfil `preview`, que está configurado para generar un APK de distribución interna:
+
+```sh
+eas login
+eas build --profile preview --platform android
+```
+
+Al terminar, EAS proporciona un enlace para descargar el APK e instalarlo en un dispositivo Android.
