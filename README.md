@@ -1,6 +1,6 @@
 # Estación IAQ
 
-Aplicación móvil Expo para consultar las mediciones del sensor y datos meteorológicos.
+Aplicación móvil para consultar las mediciones del sensor y datos meteorológicos.
 
 ## Requisitos
 
@@ -23,7 +23,6 @@ Edita `comun/config.local.js` y sustituye los valores de ejemplo por las credenc
 - `DB_URL`
 - `GRAFANA_URL`
 
-`comun/config.local.js` está excluido de Git. No lo subas al repositorio.
 
 ## Ejecutar
 
@@ -41,3 +40,7 @@ eas build --profile preview --platform android
 ```
 
 Al terminar, EAS proporciona un enlace para descargar el APK e instalarlo en un dispositivo Android.
+
+## Firmware ESP32
+
+La carpeta [`firmware/EstacionIAQ`](firmware/EstacionIAQ/README.md) está preparada para el sketch y su documentación de hardware.

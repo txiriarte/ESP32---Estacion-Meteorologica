@@ -36,6 +36,9 @@ yarn-error.*
 # local credentials (never commit)
 /comun/config.local.js
 
+# ESP32 local credentials
+/firmware/EstacionIAQ/config.h
+
 
 # typescript
 *.tsbuildinfo
