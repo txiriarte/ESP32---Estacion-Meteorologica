@@ -7,7 +7,7 @@ Aplicación móvil para consultar las mediciones del sensor y datos meteorológi
 - Node.js y npm.
 - EAS CLI (`eas-cli`) y una cuenta Expo con acceso a EAS Build.
 
-El proyecto usa Expo SDK 54 (ver `package.json`).
+El proyecto usa Expo SDK 58 (ver `package.json`).
 
 ## Preparación
 
