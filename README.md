@@ -43,4 +43,8 @@ Al terminar, EAS proporciona un enlace para descargar el APK e instalarlo en un 
 
 ## Firmware ESP32
 
-La carpeta [`firmware/EstacionIAQ`](firmware/EstacionIAQ/README.md) está preparada para el sketch y su documentación de hardware.
+El firmware ESP32 y su documentación de hardware están en [`firmware/EstacionIAQ`](firmware/EstacionIAQ/README.md).
+
+## Grafana
+
+La app puede abrir un dashboard de Grafana Cloud, pero cada clon necesita su propia instancia, fuente de datos y dashboard. Consulta la [guía de configuración de Grafana](grafana/README.md).
